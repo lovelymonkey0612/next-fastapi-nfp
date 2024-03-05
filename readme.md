@@ -109,4 +109,17 @@ Verify that it has been saved in the database.
 
 $ psql nfp_boilerplate_dev
 
-# select \* from notes;
+select \* from notes;
+
+# Front End Development – Next.js
+
+Generate a Next.js application.
+
+$ npx create-next-app@latest
+
+$ cd nfp-frontend
+$ rm -rf .git
+
+Run the dev server and make sure it works.
+
+$ npm run dev
